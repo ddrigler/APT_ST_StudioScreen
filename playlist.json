@@ -5,6 +5,7 @@
     { "type": "image", "src": "assets/AlloyPT.jpg", "duration": 15 },
     { "type": "image", "src": "assets/MM_25_pg1.jpg", "duration": 15 },
     { "type": "image", "src": "assets/MemberHike.jpg", "duration": 15 },
+    { "type": "image", "src": "assets/MemberPhotos.jpg", "duration": 15 },
     { "type": "image", "src": "assets/MM_50_pg1.jpg", "duration": 15 }
   ]
 }
