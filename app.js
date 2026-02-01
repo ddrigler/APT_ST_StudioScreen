@@ -17,9 +17,15 @@ function render(slide) {
   stage.innerHTML = "";
   const duration = Number(slide.duration || defaultDuration);
 
-  const img = document.createElement("img");
-  img.src = slide.src;
-  stage.appendChild(img);
+const img = document.createElement("img");
+img.src = slide.src;
+img.alt = "";
+img.style.width = "100%";
+img.style.height = "100%";
+img.style.objectFit = "cover";
+img.style.display = "block";
+stage.appendChild(img);
+
 
   setTimeout(next, duration * 1000);
 }
