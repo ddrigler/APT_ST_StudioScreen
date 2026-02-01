@@ -1,11 +1,11 @@
-  {
-  "version": "member-001",
-  "defaultDuration": 12,
+{
+  "version": "studio-001",
+  "intervalSeconds": 15,
   "slides": [
-    { "type": "image", "src": "assets/AlloyPT.jpg", "duration": 15 },
-    { "type": "image", "src": "assets/MM_25_pg1.jpg", "duration": 15 },
-    { "type": "image", "src": "assets/MemberHike.jpg", "duration": 15 },
-    { "type": "image", "src": "assets/MemberPhotos.jpg", "duration": 15 },
-    { "type": "image", "src": "assets/MM_50_pg1.jpg", "duration": 15 }
+    "assets/AlloyPT.jpg",
+    "assets/MM_25_pg1.jpeg",
+    "assets/MemberHike.jpg",
+    "assets/MemberPhotos.jpg",
+    "assets/MM_50_pg1.jpg"
   ]
 }
