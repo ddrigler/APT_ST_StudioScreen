@@ -2,7 +2,7 @@
   "version": "member-001",
   "defaultDuration": 12,
   "slides": [
-    { "type": "image", "src": "assets/Welcome.jpg", "duration": 10 },
-    { "type": "image", "src": "assets/MemberSpotlight1.jpg", "duration": 12 }
+    { "type": "image", "src": "assets/AlloyPT.jpg", "duration": 10 },
+    { "type": "image", "src": "assets/MemberHike.jpg", "duration": 12 }
   ]
 }
