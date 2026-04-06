@@ -12,6 +12,7 @@ html, body {
   height: 100%;
   background: black;
   overflow: hidden;
+  cursor: none !important;
 }
 
 #stage {
@@ -26,10 +27,29 @@ html, body {
   display: block;
 }
 </style>
-
 </head>
 <body>
 <div id="stage"></div>
+
 <script src="app.js"></script>
+
+<script>
+const REFRESH_INTERVAL = 30 * 60 * 1000;
+
+setTimeout(() => {
+  window.location.reload();
+}, REFRESH_INTERVAL);
+
+setTimeout(() => {
+  const stage = document.getElementById("stage");
+  if (!stage || stage.children.length === 0) {
+    window.location.reload();
+  }
+}, 10000);
+
+document.addEventListener("mousemove", () => {
+  document.body.style.cursor = "none";
+});
+</script>
 </body>
 </html>
